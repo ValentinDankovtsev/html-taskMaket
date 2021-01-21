@@ -1,6 +1,0 @@
-# Ignore artifacts:
-build
-coverage
-.stylelintrc.json
-.eslintrc.js
-*.css

@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "prettier --check . && eslint .",
-    "lint:fix": "prettier --write . && eslint . --fix"
+    "lint": "prettier --check . && eslint . && stylelint **/*.css",
+    "lint:fix": "prettier --write . && eslint . --fix && stylelint **/*.css --fix"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,6 @@
     "eslint-config-prettier": "^7.2.0",
     "eslint-config-stylelint": "^13.1.0",
     "eslint-plugin-import": "^2.22.1",
-    "husky": "^4.3.8",
-    "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
     "stylelint": "^13.9.0",
     "stylelint-config-prettier": "^8.0.2",
@@ -35,15 +33,5 @@
     "extends": [
       "stylelint"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.{css}": "stylelint --fix",
-    "*.{js,md}": "prettier --write"
   }
 }
