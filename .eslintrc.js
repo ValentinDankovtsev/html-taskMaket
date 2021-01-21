@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ["airbnb-base", "prettier", "eslint-config-prettier"],
+  extends: ["airbnb-base", "eslint-config-prettier"],
   parserOptions: {
     ecmaVersion: 12,
     sourceType: "module",
