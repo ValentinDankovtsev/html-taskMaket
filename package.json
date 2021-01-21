@@ -31,9 +31,7 @@
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{js,md,yml,html}": "prettier --write",
-    "*.{css}": "stylelint --fix",
-    "*.css": "stylelint --fix",
-    "*.{js,css,md}": "prettier --write"
+    "*.css": "stylelint --fix"
   },
   "dependencies": {},
   "bugs": {
