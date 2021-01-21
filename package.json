@@ -5,33 +5,42 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "prettier --check . && eslint .",
-    "lint:fix": "prettier --write . && eslint . --fix"
-  },
+    "lint": "prettier --check . && eslint . && stylelint .",
+    "lint:fix": "prettier --write . && eslint . --fix && stylelint -- fix ."
+  }
+  ,
   "repository": {
     "type": "git",
     "url": "git+https://ValentinDankovtsev@github.com/ValentinDankovtsev/html-taskMaket.git"
-  },
+  }
+  ,
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ValentinDankovtsev/html-taskMaket/issues"
-  },
+
+  }
+  ,
   "homepage": "https://github.com/ValentinDankovtsev/html-taskMaket#readme",
   "devDependencies": {
     "eslint": "^7.18.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-import": "^2.22.1",
-    "prettier": "^2.2.1"
-  },
+    "prettier": "^2.2.1",
+    "stylelint": "^13.9.0",
+    "stylelint-config-standard": "^20.0.0"
+  }
+  ,
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
+
     }
-  },
+  }
+  ,
   "lint-staged": {
     "*.js": "eslint --cache --fix",
-    "*.{css,md,yml,html}": "prettier --write"
+    "*.{js,md,yml,html}": "prettier --write",
+    "*.{css}": "stylelint --fix"
   }
 }
