@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  min-height: calc(100vh - 40vh);
+}
+
+.main__nav {
+  text-align: justify;
+  order: -1;
+}
+
+.main__nav,
+.main__aside {
+  flex: 0 0 20vw;
+  background: beige;
+}
