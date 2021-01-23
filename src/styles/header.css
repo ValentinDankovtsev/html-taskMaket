@@ -1,0 +1,14 @@
+.header {
+  background: rgb(27, 103, 153);
+  min-height: 30vh;
+  display: flex;
+}
+
+.header__image {
+  width: 400px;
+}
+
+.header__image--main {
+  max-height: 100%;
+  width: 80%;
+}

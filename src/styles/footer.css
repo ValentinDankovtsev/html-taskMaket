@@ -1,0 +1,15 @@
+.footer {
+  background: rgb(27, 103, 153);
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer__block {
+  flex: 0 0 20vw;
+  justify-content: center;
+}
+.footer__block__contact-content {
+  color: black;
+}
