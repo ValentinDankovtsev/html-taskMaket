@@ -1,15 +1,15 @@
 .footer {
-  background: rgb(27, 103, 153);
+  background: var(--main-bg-color);
   height: 20vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.footer__block {
+.footer-block {
   flex: 0 0 20vw;
   justify-content: center;
 }
-.footer__block__contact-content {
-  color: black;
+.footer-block__item--number {
+  color: var(--main-text-color);
 }
