@@ -15,5 +15,10 @@ footer,
 article,
 nav,
 aside {
-  padding: 1em;
+  padding: 20px;
+}
+
+:root {
+  --main-bg-color: rgb(27, 103, 153);
+  --main-text-color: rgb(0, 0, 0);
 }

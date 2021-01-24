@@ -1,15 +1,16 @@
 .main {
   display: flex;
-  min-height: calc(100vh - 40vh);
+  min-height: 60vh;
+  height: 100%;
 }
 
-.main__nav {
+.nav-block {
   text-align: justify;
   order: -1;
 }
 
-.main__nav,
-.main__aside {
+.nav-block,
+.aside-block {
   flex: 0 0 20vw;
-  background: beige;
+  background: rgb(245, 245, 220);
 }
