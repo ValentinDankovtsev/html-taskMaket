@@ -1,6 +1,6 @@
 .footer {
   background: var(--main-bg-color);
-  height: 20vh;
+  min-height: 20vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -10,6 +10,6 @@
   flex: 0 0 20vw;
   justify-content: center;
 }
-.item--number {
+.footer-block__item--number {
   color: var(--main-text-color);
 }
