@@ -10,6 +10,7 @@
   flex: 0 0 20vw;
   justify-content: center;
 }
-.footer-block__item--number {
+
+.footer-block__link {
   color: var(--main-text-color);
 }

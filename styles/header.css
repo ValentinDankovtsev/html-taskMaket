@@ -4,6 +4,10 @@
   display: flex;
 }
 
+.header__title-main {
+  margin: auto;
+}
+
 .header__image {
   width: 400px;
 }
