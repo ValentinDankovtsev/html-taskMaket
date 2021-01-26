@@ -1,0 +1,24 @@
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header,
+footer,
+article,
+nav,
+aside {
+  padding: 20px;
+}
+
+:root {
+  --main-bg-color: rgb(27, 103, 153);
+  --main-text-color: rgb(0, 0, 0);
+}

@@ -1,0 +1,20 @@
+.footer {
+  background: var(--main-bg-color);
+  min-height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-block {
+  flex: 0 0 20vw;
+  justify-content: center;
+}
+
+.footer-block__item {
+  display: inline-block;
+  margin: 16px;
+}
+.footer-block__link {
+  color: var(--main-text-color);
+}

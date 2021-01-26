@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  min-height: 60vh;
+  height: 100%;
+}
+
+.nav-block {
+  text-align: justify;
+  order: -1;
+}
+
+.nav-block,
+.aside-block {
+  flex: 0 0 20vw;
+  background-color: rgb(245, 245, 220);
+}

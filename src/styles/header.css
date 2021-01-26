@@ -1,0 +1,17 @@
+.header {
+  background: var(--main-bg-color);
+  min-height: 30vh;
+  display: flex;
+}
+
+.header__title-main {
+  margin: auto;
+}
+
+.header__image {
+  width: 350px;
+}
+
+.image.image--main {
+  width: 100%;
+}
