@@ -11,6 +11,10 @@
   justify-content: center;
 }
 
+.footer-block__item {
+  display: inline-block;
+  margin: 16px;
+}
 .footer-block__link {
   color: var(--main-text-color);
 }
